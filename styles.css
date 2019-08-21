@@ -1,0 +1,85 @@
+body
+{
+font-family: 'Open Sans', sans-serif;
+color: #686868;
+background: #101214 url(images/main-bg.png) repeat;
+}
+
+ h2 {
+	position: relative;
+	font-weight: 300;
+	color: white;
+	text-align: center;
+	font-size: 300%;
+}
+
+p {
+	font-size: 130%;
+}
+
+#header {
+	position: relative;
+  text-align: center;
+}
+
+.header-text {
+	position: absolute;
+  top: 70%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+	color: white;
+}
+#logo {
+	position: absolute;
+	left: 20px;
+	top: 20px;
+}
+
+button {
+	background-color: #FE665E;
+	color: black;
+	padding: 12px;
+	font-size: 80%;
+	border: black;
+	border-radius: 8%;
+}
+
+#price-container {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+
+}
+.small-container {
+text-align: center;
+}
+
+img {
+	max-width: 100%;
+	height: auto;
+}
+
+.byline
+{
+	display: block;
+	line-height: 5%;
+	font-weight: 500;
+	color: white;
+	font-size: 200%;
+}
+
+#bannerpic	{
+	overflow: hidden;
+	padding: 35% 0;
+	text-align: center;
+	z-index: 1;
+	position: relative;
+	}
+
+#table-wrapper	{
+	display: block;
+	position: relative;
+	padding: 1% 0;
+	background: #0c0e0f;
+	text-align: center;
+	height: auto;
+	}
